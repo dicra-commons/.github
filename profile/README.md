@@ -105,7 +105,7 @@ In collaboration with the Government of Telangana, ICRISAT, Zero Hunger Lab, JAD
 
 <div align="center">
 
-[support@dicra.org](mailto:support@dicra.org) &nbsp;·&nbsp; Part of UNDP's *Data for Policy* initiative
+[support@dicra.org](mailto:support@dicra.org) &nbsp;·&nbsp; 
 
 <br/>
 
