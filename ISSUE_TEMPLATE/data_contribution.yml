@@ -1,0 +1,89 @@
+name: 🌾 Data Contribution
+description: Propose a new dataset or correction to existing data
+title: "[Data]: "
+labels: ["data", "needs-validation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to DiCRA's open data commons!
+
+  - type: dropdown
+    id: contribution_type
+    attributes:
+      label: Type of Contribution
+      options:
+        - New dataset
+        - Correction to existing dataset
+        - Validation / ground-truthing
+        - Metadata update
+    validations:
+      required: true
+
+  - type: input
+    id: dataset_name
+    attributes:
+      label: Dataset Name
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What does this dataset contain? What problem does it address?
+    validations:
+      required: true
+
+  - type: input
+    id: geographic_scope
+    attributes:
+      label: Geographic Scope
+      placeholder: e.g., Telangana, India / Sub-Saharan Africa / Global
+    validations:
+      required: true
+
+  - type: input
+    id: temporal_scope
+    attributes:
+      label: Temporal Scope
+      placeholder: e.g., 2018–2024, monthly
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Data Source & Provenance
+      description: Where does the data come from? Include collection methodology and any preprocessing.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: license
+    attributes:
+      label: License
+      options:
+        - CC0 (Public Domain)
+        - CC-BY 4.0
+        - CC-BY-SA 4.0
+        - ODbL
+        - Other (please specify in description)
+    validations:
+      required: true
+
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation Approach
+      description: How has this data been validated? Citizen science? Ground truth? Cross-reference with other datasets?
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmations
+      options:
+        - label: I have the rights to share this data under the stated license
+          required: true
+        - label: I have read the Code of Conduct
+          required: true

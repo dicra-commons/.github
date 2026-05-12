@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Community Discussions
+    url: https://github.com/orgs/dicra-commons/discussions
+    about: Ask questions, share ideas, or chat with the community
+  - name: 🔐 Security Vulnerability
+    url: https://github.com/dicra-commons/.github/blob/main/SECURITY.md
+    about: Please report security issues privately, not as a public issue
+  - name: 📧 Partnerships & Media
+    url: mailto:support@dicra.org
+    about: For formal inquiries about partnerships or media
