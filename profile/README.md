@@ -4,7 +4,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dicra-commons/.github/main/profile/assets/banner-dark.png">
-  <img alt="DiCRA" src="https://raw.githubusercontent.com/dicra-commons/.github/main/profile/assets/banner-light.png" width="640">
+  <img alt="DiCRA" src="https://raw.githubusercontent.com/dicra-commons/.github/main/profile/assets/banner-light.png" width="100%">
 </picture>
 
 <br/>
