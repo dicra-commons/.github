@@ -3,8 +3,8 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dicra-commons/.github/main/profile/assets/banner-dark.svg">
-  <img alt="DiCRA" src="https://raw.githubusercontent.com/dicra-commons/.github/main/profile/assets/banner-light.svg" width="640">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dicra-commons/.github/main/profile/assets/banner-dark.png">
+  <img alt="DiCRA" src="https://raw.githubusercontent.com/dicra-commons/.github/main/profile/assets/banner-light.png" width="640">
 </picture>
 
 <br/>
